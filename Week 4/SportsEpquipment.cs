@@ -13,7 +13,7 @@ public class PeralatanOlahraga
     {
         get {return _merek;}
     }
-    public PeralatanOlahraga(string jenis, string merk)
+    public PeralatanOlahraga(string jenis, string merek)
     {
         _jenis = jenis;
         _merek = merek;
@@ -28,7 +28,7 @@ public class Bola : PeralatanOlahraga
     protected string _jenisOlahraga;
     protected string _bahan;
 
-    public string JenisOlaraga
+    public string JenisOlahraga
     {
         get {return _jenisOlahraga;}
     }
@@ -75,8 +75,8 @@ public class BolaLatihan : Bola
     {
         get {return _harga;}
     }
-    public BolaLatihan(string jenis, string merk, string jenisOlahraga, string bahan, int harga)
-    : base(jenis, merk, jenisOlahraga, bahan)
+    public BolaLatihan(string jenis, string merek, string jenisOlahraga, string bahan, int harga)
+    : base(jenis, merek, jenisOlahraga, bahan)
     {
         _harga = harga;
     }
