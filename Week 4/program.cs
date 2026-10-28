@@ -40,10 +40,12 @@ internal class Program
         //Sports Epquipment
         BolaProfesional bola1 = new BolaProfesional("Bola","Adidas","Sepakbola", "Kulit sintetiis", true);
         BolaLatihan bola2 = new BolaLatihan("Bola","Mikasa","Voli","Karet",150000);
-        
+
+        //bola 1
         bola1.TampilkanInformasi();
         bola1.TampilkanStandar();
 
+        //Bola2
         bola2.TampilkanInformasi();
         bola2.TampilkanSpesifikasi();
         Console.WriteLine($"Harga: {bola2.Harga}");
